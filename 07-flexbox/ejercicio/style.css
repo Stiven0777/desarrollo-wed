@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor-carta {
+  background-color: rgb(#6541fd);
+  width: 900px;
+  height: 600px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 8px 4px 20px 20px rgb(253, 253, 253);
+}
+
+.contenedor-izquierda {
+  background-color: rgb(60, 27, 126);
+  width: 450px;
+}
+
+.contenedor-derecha {
+  background-color: rgba(29, 229, 255, 0.993);
+  width: 450px;
+}
