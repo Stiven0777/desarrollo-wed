@@ -17,20 +17,85 @@ main {
 
 .contenedor-carta {
   background-color: rgb(#6541fd);
-  width: 900px;
-  height: 600px;
+  width: 800px;
+  height: 500px;
   display: flex;
-  border-radius: 20px;
+  border-radius: 30px;
   overflow: hidden;
-  box-shadow: 8px 4px 20px 20px rgb(253, 253, 253);
+  box-shadow: 8px 1px 20px 1px rgba(34, 37, 40, 0.367);
 }
 
 .contenedor-izquierda {
-  background-color: rgb(60, 27, 126);
+  background: linear-gradient(
+    180deg,
+    rgba(68, 58, 176, 1) 0%,
+    rgba(70, 59, 174, 1) 50%,
+    rgba(28, 65, 223, 1) 100%
+  );
   width: 450px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+}
+
+.contenedor-izquierda h2 {
+  color: aliceblue;
+}
+
+.circulo {
+  background: linear-gradient(
+    180deg,
+    rgb(48, 38, 165) 0%,
+    rgb(58, 85, 208) 100%
+  );
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circulo-numero {
+  font-size: 50px;
+  color: rgb(253, 255, 255);
+}
+
+.circulo-cien {
+  font-size: 20px;
+  color: rgb(177, 186, 186);
+}
+
+.titulo-resultado {
+  color: azure;
+  font-size: 30px;
+}
+
+.contenedor-izquierda p {
+  color: azure;
 }
 
 .contenedor-derecha {
-  background-color: rgba(29, 229, 255, 0.993);
+  background: rgb(255, 253, 253);
   width: 450px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.habilidad {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5e5e5;
+  padding: 12px;
+  border-radius: 10px;
+  color: rgb(225, 96, 91);
+  font-weight: 600px;
+}
+
+
